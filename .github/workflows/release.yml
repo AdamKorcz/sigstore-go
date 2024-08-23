@@ -42,4 +42,4 @@ jobs:
         with:
           go-version-file: go.mod
       - name: Build binaries
-        run: 'echo ${{ github.ref_name }}'
+        run: 'echo ${{ github.ref_name }} && git branch'
